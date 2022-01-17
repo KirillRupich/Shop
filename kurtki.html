@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style3.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="blok1">
+            <div class="heder">
+                <a href="./sh.html">штаны</a>
+                <a href="./kurtki.html">куртки</a>
+                <a href="./kataog.html">футболки</a>
+                <a href="./index.html">главная</a>
+            </div>
+            <h1>Качественная одежда не дорогая</h1>
+        </div>
+        <div class="btnToo"> 
+            <button  onclick="ff2()" id="kup2">Мои покупки </button>
+        <button  onclick="ffe()" id="back">Назад </button>
+    </div>
+        <div class="blok2"> 
+            <div class="cardGroup" id="cardGroup">  
+        
+        
+             <div class="card" id="card1">
+                 <button class="btn" onclick="kurtkife(kurtk1)">смотреть </button>
+                 <img  src="./kurtki/kurtk1.jpeg" alt="">
+                 <div class="cardContent">
+                     <p class="name">Курточка</p>
+                     <p class="price">3000 грн.</p>
+                    </div>
+                    <p>Хлопок стиль кэжуал</p>
+                    <button class="btCard" onclick="kup(kurtk1)">КУПИТЬ</button>
+                </div>
+        
+                 <div class="card" id="card2">
+                <button class="btn" onclick="kurtkife(kurtk2)">смотреть </button>
+                 <img src="./kurtki/kurtk2.jpeg" alt="">
+        
+                    <div class="cardContent">
+                        <p class="name">Курточка</p>
+                        <p class="price">2400 грн.</p>
+                    </div>
+                        <p>Хлопок стиль кэжуал</p>
+                        <button class="btCard" onclick="kup(kurtk2)">КУПИТЬ</button>
+                    </div>
+        
+                 <div class="card" id="card3">
+                     <button class="btn" onclick="kurtkife(kurtk3)">смотреть </button>
+                    <img src="./kurtki/kurtk3.jpeg" alt="">
+        
+                    <div class="cardContent">
+                        <p class="name">Курточка</p>
+                        <p class="price">2800 грн.</p>
+                    </div>
+                        <p>Хлопок стиль кэжуал</p>
+                        <button class="btCard" onclick="kup(kurtk3)">КУПИТЬ</button>
+                    </div>  
+                    
+                    
+                    <div class="card" id="card4">
+                        <button class="btn" onclick="kurtkife(kurtk4)">смотреть </button>
+                        <img src="./kurtki/kurtk4.jpeg" alt="">
+                        <div class="cardContent">
+                            <p class="name">Курточка</p>
+                            <p class="price">3900 грн.</p>
+                           </div>
+                           <p>Хлопок стиль кэжуал</p>
+                           <button class="btCard" onclick="kup(kurtk4)">КУПИТЬ</button>
+                       </div>
+                        <div class="card" id="kurtkK2">
+                       <button class="btn" onclick="kurtkife(kurtk5)">смотреть </button>
+                        <img src="./kurtki/kurtk5.jpeg" alt="">
+               
+                           <div class="cardContent">
+                               <p class="name">Курточка</p>
+                               <p class="price">2700 грн.</p>
+                           </div>
+                               <p>Хлопок стиль кэжуал</p>
+                               <button class="btCard" onclick="kup(kurtk5)">КУПИТЬ</button>
+                           </div>
+               
+                    <div class="card" id="card6">
+                       <button class="btn" onclick="kurtkife(kurtk6)">смотреть </button>
+                        <img src="./kurtki/kurtk6.jpeg" alt="">
+               
+                        <div class="cardContent">
+                            <p class="name">Курточка</p>
+                            <p class="price">2300 грн.</p>
+                        </div>
+                            <p>Хлопок стиль кэжуал</p>
+                            <button class="btCard" onclick="kup(kurtk6)">КУПИТЬ</button>
+                        </div>   
+          
+            </div>
+            
+        <div class="blok3" id="crPag"> 
+    
+
+            <button id="k1" onclick="paginationKurt(k1)" class="pag">1</button>
+            <button id="k2" onclick="paginationKurt(k2)" class="pag">2</button>
+            <button id="k3" onclick="paginationKurt(k3)" class="pag">3</button>
+            <button id="k4" onclick="paginationKurt(k4)" class="pag">4</button>
+            <button onclick="paginationKurt('   ')" class="pag">5</button>
+            <button onclick="paginationKurt('ca3')" class="pag">6</button>
+            <button onclick="paginationKurt('ca1')" class="pag">7</button>
+            <button onclick="paginationKurt('ca2')" class="pag">8</button>
+            <button onclick="paginationKurt('ca3')" class="pag">9</button>
+            <button onclick="paginationKurt('ca1')" class="pag">10</button>
+            <button onclick="paginationKurt('ca2')" class="pag">11</button>
+            <button onclick="paginationKurt('ca3')" class="pag">12</button>
+        </div>
+   
+        </div>
+        <script src="./js.js"></script>
+</body>
+</html>
